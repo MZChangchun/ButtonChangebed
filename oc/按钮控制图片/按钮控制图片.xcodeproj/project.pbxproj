@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39FD98B91D8FB8DA0098C0B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FD98B81D8FB8DA0098C0B8 /* main.m */; };
+		39FD98BC1D8FB8DA0098C0B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FD98BB1D8FB8DA0098C0B8 /* AppDelegate.m */; };
+		39FD98BF1D8FB8DA0098C0B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FD98BE1D8FB8DA0098C0B8 /* ViewController.m */; };
+		39FD98C21D8FB8DA0098C0B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FD98C01D8FB8DA0098C0B8 /* Main.storyboard */; };
+		39FD98C41D8FB8DA0098C0B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39FD98C31D8FB8DA0098C0B8 /* Assets.xcassets */; };
+		39FD98C71D8FB8DA0098C0B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FD98C51D8FB8DA0098C0B8 /* LaunchScreen.storyboard */; };
+		39FD98D21D8FB8DA0098C0B8 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FD98D11D8FB8DA0098C0B8 /* ______Tests.m */; };
+		39FD98DD1D8FB8DA0098C0B8 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FD98DC1D8FB8DA0098C0B8 /* ______UITests.m */; };
+		39FD98ED1D8FB94A0098C0B8 /* BianHUanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FD98EB1D8FB94A0098C0B8 /* BianHUanViewController.m */; };
+		39FD98F11D8FC8060098C0B8 /* MZView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FD98F01D8FC8060098C0B8 /* MZView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39FD98CE1D8FB8DA0098C0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39FD98AC1D8FB8DA0098C0B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39FD98B31D8FB8DA0098C0B8;
+			remoteInfo = "按钮控制图片";
+		};
+		39FD98D91D8FB8DA0098C0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39FD98AC1D8FB8DA0098C0B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39FD98B31D8FB8DA0098C0B8;
+			remoteInfo = "按钮控制图片";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39FD98B41D8FB8DA0098C0B8 /* 按钮控制图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "按钮控制图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FD98B81D8FB8DA0098C0B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39FD98BA1D8FB8DA0098C0B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39FD98BB1D8FB8DA0098C0B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39FD98BD1D8FB8DA0098C0B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39FD98BE1D8FB8DA0098C0B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39FD98C11D8FB8DA0098C0B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39FD98C31D8FB8DA0098C0B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39FD98C61D8FB8DA0098C0B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39FD98C81D8FB8DA0098C0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39FD98CD1D8FB8DA0098C0B8 /* 按钮控制图片Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮控制图片Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FD98D11D8FB8DA0098C0B8 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		39FD98D31D8FB8DA0098C0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39FD98D81D8FB8DA0098C0B8 /* 按钮控制图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮控制图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FD98DC1D8FB8DA0098C0B8 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		39FD98DE1D8FB8DA0098C0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39FD98EA1D8FB94A0098C0B8 /* BianHUanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BianHUanViewController.h; sourceTree = "<group>"; };
+		39FD98EB1D8FB94A0098C0B8 /* BianHUanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BianHUanViewController.m; sourceTree = "<group>"; };
+		39FD98EF1D8FC8060098C0B8 /* MZView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZView.h; sourceTree = "<group>"; };
+		39FD98F01D8FC8060098C0B8 /* MZView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39FD98B11D8FB8DA0098C0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FD98CA1D8FB8DA0098C0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FD98D51D8FB8DA0098C0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39FD98AB1D8FB8DA0098C0B8 = {
+			isa = PBXGroup;
+			children = (
+				39FD98B61D8FB8DA0098C0B8 /* 按钮控制图片 */,
+				39FD98D01D8FB8DA0098C0B8 /* 按钮控制图片Tests */,
+				39FD98DB1D8FB8DA0098C0B8 /* 按钮控制图片UITests */,
+				39FD98B51D8FB8DA0098C0B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39FD98B51D8FB8DA0098C0B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39FD98B41D8FB8DA0098C0B8 /* 按钮控制图片.app */,
+				39FD98CD1D8FB8DA0098C0B8 /* 按钮控制图片Tests.xctest */,
+				39FD98D81D8FB8DA0098C0B8 /* 按钮控制图片UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39FD98B61D8FB8DA0098C0B8 /* 按钮控制图片 */ = {
+			isa = PBXGroup;
+			children = (
+				39FD98BA1D8FB8DA0098C0B8 /* AppDelegate.h */,
+				39FD98BB1D8FB8DA0098C0B8 /* AppDelegate.m */,
+				39FD98BD1D8FB8DA0098C0B8 /* ViewController.h */,
+				39FD98BE1D8FB8DA0098C0B8 /* ViewController.m */,
+				39FD98EA1D8FB94A0098C0B8 /* BianHUanViewController.h */,
+				39FD98EB1D8FB94A0098C0B8 /* BianHUanViewController.m */,
+				39FD98EF1D8FC8060098C0B8 /* MZView.h */,
+				39FD98F01D8FC8060098C0B8 /* MZView.m */,
+				39FD98C01D8FB8DA0098C0B8 /* Main.storyboard */,
+				39FD98C31D8FB8DA0098C0B8 /* Assets.xcassets */,
+				39FD98C51D8FB8DA0098C0B8 /* LaunchScreen.storyboard */,
+				39FD98C81D8FB8DA0098C0B8 /* Info.plist */,
+				39FD98B71D8FB8DA0098C0B8 /* Supporting Files */,
+			);
+			path = "按钮控制图片";
+			sourceTree = "<group>";
+		};
+		39FD98B71D8FB8DA0098C0B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39FD98B81D8FB8DA0098C0B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39FD98D01D8FB8DA0098C0B8 /* 按钮控制图片Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39FD98D11D8FB8DA0098C0B8 /* ______Tests.m */,
+				39FD98D31D8FB8DA0098C0B8 /* Info.plist */,
+			);
+			path = "按钮控制图片Tests";
+			sourceTree = "<group>";
+		};
+		39FD98DB1D8FB8DA0098C0B8 /* 按钮控制图片UITests */ = {
+			isa = PBXGroup;
+			children = (
+				39FD98DC1D8FB8DA0098C0B8 /* ______UITests.m */,
+				39FD98DE1D8FB8DA0098C0B8 /* Info.plist */,
+			);
+			path = "按钮控制图片UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39FD98B31D8FB8DA0098C0B8 /* 按钮控制图片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39FD98E11D8FB8DA0098C0B8 /* Build configuration list for PBXNativeTarget "按钮控制图片" */;
+			buildPhases = (
+				39FD98B01D8FB8DA0098C0B8 /* Sources */,
+				39FD98B11D8FB8DA0098C0B8 /* Frameworks */,
+				39FD98B21D8FB8DA0098C0B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "按钮控制图片";
+			productName = "按钮控制图片";
+			productReference = 39FD98B41D8FB8DA0098C0B8 /* 按钮控制图片.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39FD98CC1D8FB8DA0098C0B8 /* 按钮控制图片Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39FD98E41D8FB8DA0098C0B8 /* Build configuration list for PBXNativeTarget "按钮控制图片Tests" */;
+			buildPhases = (
+				39FD98C91D8FB8DA0098C0B8 /* Sources */,
+				39FD98CA1D8FB8DA0098C0B8 /* Frameworks */,
+				39FD98CB1D8FB8DA0098C0B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39FD98CF1D8FB8DA0098C0B8 /* PBXTargetDependency */,
+			);
+			name = "按钮控制图片Tests";
+			productName = "按钮控制图片Tests";
+			productReference = 39FD98CD1D8FB8DA0098C0B8 /* 按钮控制图片Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39FD98D71D8FB8DA0098C0B8 /* 按钮控制图片UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39FD98E71D8FB8DA0098C0B8 /* Build configuration list for PBXNativeTarget "按钮控制图片UITests" */;
+			buildPhases = (
+				39FD98D41D8FB8DA0098C0B8 /* Sources */,
+				39FD98D51D8FB8DA0098C0B8 /* Frameworks */,
+				39FD98D61D8FB8DA0098C0B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39FD98DA1D8FB8DA0098C0B8 /* PBXTargetDependency */,
+			);
+			name = "按钮控制图片UITests";
+			productName = "按钮控制图片UITests";
+			productReference = 39FD98D81D8FB8DA0098C0B8 /* 按钮控制图片UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39FD98AC1D8FB8DA0098C0B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MZ;
+				TargetAttributes = {
+					39FD98B31D8FB8DA0098C0B8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AW78H63GXU;
+						ProvisioningStyle = Automatic;
+					};
+					39FD98CC1D8FB8DA0098C0B8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AW78H63GXU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39FD98B31D8FB8DA0098C0B8;
+					};
+					39FD98D71D8FB8DA0098C0B8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AW78H63GXU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39FD98B31D8FB8DA0098C0B8;
+					};
+				};
+			};
+			buildConfigurationList = 39FD98AF1D8FB8DA0098C0B8 /* Build configuration list for PBXProject "按钮控制图片" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39FD98AB1D8FB8DA0098C0B8;
+			productRefGroup = 39FD98B51D8FB8DA0098C0B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39FD98B31D8FB8DA0098C0B8 /* 按钮控制图片 */,
+				39FD98CC1D8FB8DA0098C0B8 /* 按钮控制图片Tests */,
+				39FD98D71D8FB8DA0098C0B8 /* 按钮控制图片UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39FD98B21D8FB8DA0098C0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FD98C71D8FB8DA0098C0B8 /* LaunchScreen.storyboard in Resources */,
+				39FD98C41D8FB8DA0098C0B8 /* Assets.xcassets in Resources */,
+				39FD98C21D8FB8DA0098C0B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FD98CB1D8FB8DA0098C0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FD98D61D8FB8DA0098C0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39FD98B01D8FB8DA0098C0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FD98ED1D8FB94A0098C0B8 /* BianHUanViewController.m in Sources */,
+				39FD98BF1D8FB8DA0098C0B8 /* ViewController.m in Sources */,
+				39FD98BC1D8FB8DA0098C0B8 /* AppDelegate.m in Sources */,
+				39FD98B91D8FB8DA0098C0B8 /* main.m in Sources */,
+				39FD98F11D8FC8060098C0B8 /* MZView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FD98C91D8FB8DA0098C0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FD98D21D8FB8DA0098C0B8 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FD98D41D8FB8DA0098C0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FD98DD1D8FB8DA0098C0B8 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39FD98CF1D8FB8DA0098C0B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39FD98B31D8FB8DA0098C0B8 /* 按钮控制图片 */;
+			targetProxy = 39FD98CE1D8FB8DA0098C0B8 /* PBXContainerItemProxy */;
+		};
+		39FD98DA1D8FB8DA0098C0B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39FD98B31D8FB8DA0098C0B8 /* 按钮控制图片 */;
+			targetProxy = 39FD98D91D8FB8DA0098C0B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39FD98C01D8FB8DA0098C0B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39FD98C11D8FB8DA0098C0B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39FD98C51D8FB8DA0098C0B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39FD98C61D8FB8DA0098C0B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39FD98DF1D8FB8DA0098C0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39FD98E01D8FB8DA0098C0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39FD98E21D8FB8DA0098C0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AW78H63GXU;
+				INFOPLIST_FILE = "按钮控制图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dysoft.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39FD98E31D8FB8DA0098C0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AW78H63GXU;
+				INFOPLIST_FILE = "按钮控制图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dysoft.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39FD98E51D8FB8DA0098C0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AW78H63GXU;
+				INFOPLIST_FILE = "按钮控制图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dysoft.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/按钮控制图片.app/按钮控制图片";
+			};
+			name = Debug;
+		};
+		39FD98E61D8FB8DA0098C0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AW78H63GXU;
+				INFOPLIST_FILE = "按钮控制图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dysoft.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/按钮控制图片.app/按钮控制图片";
+			};
+			name = Release;
+		};
+		39FD98E81D8FB8DA0098C0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AW78H63GXU;
+				INFOPLIST_FILE = "按钮控制图片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dysoft.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "按钮控制图片";
+			};
+			name = Debug;
+		};
+		39FD98E91D8FB8DA0098C0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AW78H63GXU;
+				INFOPLIST_FILE = "按钮控制图片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dysoft.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "按钮控制图片";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39FD98AF1D8FB8DA0098C0B8 /* Build configuration list for PBXProject "按钮控制图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FD98DF1D8FB8DA0098C0B8 /* Debug */,
+				39FD98E01D8FB8DA0098C0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39FD98E11D8FB8DA0098C0B8 /* Build configuration list for PBXNativeTarget "按钮控制图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FD98E21D8FB8DA0098C0B8 /* Debug */,
+				39FD98E31D8FB8DA0098C0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39FD98E41D8FB8DA0098C0B8 /* Build configuration list for PBXNativeTarget "按钮控制图片Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FD98E51D8FB8DA0098C0B8 /* Debug */,
+				39FD98E61D8FB8DA0098C0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39FD98E71D8FB8DA0098C0B8 /* Build configuration list for PBXNativeTarget "按钮控制图片UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FD98E81D8FB8DA0098C0B8 /* Debug */,
+				39FD98E91D8FB8DA0098C0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39FD98AC1D8FB8DA0098C0B8 /* Project object */;
+}
